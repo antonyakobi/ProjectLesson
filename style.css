@@ -6,6 +6,12 @@
 
 body {
     letter-spacing: 0.01em;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+}
+
+ul {
+    list-style: none;
 }
 
 .main {
@@ -32,7 +38,7 @@ body {
     background-color: #fff;
 }
 
-.selected {
+.preview.selected {
     box-shadow: 8px 8px 16px 0 rgba(81, 91, 117, 0.25);
 }
 
@@ -40,46 +46,34 @@ body {
     padding: 0 60px;
 }
 
-h1 {
+.main-title {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 38px;
-    letter-spacing: 0.01em;
     color: rgba(20, 20, 20, 0.9);
     margin-bottom: 5px;
 }
 
 .subtitle {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    letter-spacing: 0.01em;
     color: rgba(20, 20, 20, 0.4);
     margin-bottom: 60px;
 }
 
 .text {
-    font-family: "Rubik", sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
-    letter-spacing: 0.01em;
     color: rgba(20, 20, 20, 0.7);
     margin-bottom: 65px;
 }
 
 .title {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    letter-spacing: 0.01em;
     text-transform: uppercase;
     color: rgba(20, 20, 20, 0.4);
     margin-bottom: 20px;
-}
-
-ul {
-    list-style: none;
 }
 
 .sircle {
@@ -120,17 +114,12 @@ li.selected {
 
 .quantity {
     width: 80px;
-
-    font-family: "Rubik", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 0.01em;
     text-transform: uppercase;
     color: rgba(20, 20, 20, 0.8);
-
     border: none;
     background-color: transparent;
-
     appearance: none;
     background-image: url(./assets/images/arrow-bottom.svg);
     background-repeat: no-repeat;
@@ -138,10 +127,8 @@ li.selected {
 }
 
 .price {
-    font-family: "Rubik", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 0.01em;
     text-transform: uppercase;
     color: rgba(20, 20, 20, 0.8);
 }
@@ -152,11 +139,7 @@ li.selected {
     height: 70px;
     border: none;
     margin-top: 75px;
-    
-    font-family: "Rubik", sans-serif;
+    color: #fff;
     font-weight: 500;
     font-size: 18px;
-    letter-spacing: 0.01em;
-    color: #fff;
 }
-
